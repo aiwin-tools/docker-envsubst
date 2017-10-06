@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apk update && apk add gettext
+RUN apk update && apk add gettext && apk add lftp
